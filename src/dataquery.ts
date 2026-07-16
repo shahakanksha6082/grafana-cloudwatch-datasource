@@ -243,6 +243,10 @@ export interface CloudWatchLogsQuery extends common.DataQuery {
   expression?: string;
   id: string;
   /**
+   * Data sources to query
+   */
+  logDataSources?: LogDataSource[];
+  /**
    * Log group class filter for namePrefix and allLogGroups scope modes
    */
   logGroupClass?: LogGroupClass;
@@ -289,6 +293,7 @@ export interface CloudWatchLogsQuery extends common.DataQuery {
 }
 
 export const defaultCloudWatchLogsQuery: Partial<CloudWatchLogsQuery> = {
+  logDataSources: [],
   logGroupNames: [],
   logGroupPrefixes: [],
   logGroups: [],
@@ -340,6 +345,17 @@ export interface LogGroup {
    * Name of the log group
    */
   name: string;
+}
+
+export interface LogDataSource {
+  /**
+   * Name of the data source
+   */
+  name: string;
+  /**
+   * Type of the data source
+   */
+  type: string;
 }
 
 /**
