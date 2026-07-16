@@ -124,6 +124,8 @@ github.com/grafana/grafana-aws-sdk v1.5.1-0.20260715212040-7938eee1e491 h1:FuP4j
 github.com/grafana/grafana-aws-sdk v1.5.1-0.20260715212040-7938eee1e491/go.mod h1:9n7/73i1L6E33ozMk2Nb2s4OoOSWqbmYltIoi/AqgJw=
 github.com/grafana/grafana-aws-sdk v1.5.1-0.20260715213322-a001af3b2236 h1:ihmw1g5C4+bsu76u7Jpw69UJeC1UstFYmYW5TZP9lgk=
 github.com/grafana/grafana-aws-sdk v1.5.1-0.20260715213322-a001af3b2236/go.mod h1:9n7/73i1L6E33ozMk2Nb2s4OoOSWqbmYltIoi/AqgJw=
+github.com/grafana/grafana-aws-sdk v1.5.1 h1:qvqZwc2tzWCj5UAICmj+dYpa9ZQU9DY+zdWu5xj+vro=
+github.com/grafana/grafana-aws-sdk v1.5.1/go.mod h1:9n7/73i1L6E33ozMk2Nb2s4OoOSWqbmYltIoi/AqgJw=
 github.com/grafana/grafana-plugin-sdk-go v0.292.2 h1:6xrNZpe905vzX1pY33Fyet7Oxw5xULcAHm2b8dvNZNY=
 github.com/grafana/grafana-plugin-sdk-go v0.292.2/go.mod h1:MPviZeixuZDc5T3f62FBCCPSOJ51/JocZH5+ZiQ1DmM=
 github.com/grafana/otel-profiling-go v0.6.0 h1:W7lOZaJj4IJISXMcM1UBk3fJF3tzF2OD6MJBJaQp1H8=
