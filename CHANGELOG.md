@@ -1,5 +1,24 @@
 # Changelog
 
+## 12.9.0
+
+- CloudWatch Logs: Add support for querying by data source name and type
+- fix(deps): update dependency @grafana/scenes to v8 in [#553](https://github.com/grafana/grafana-cloudwatch-datasource/pull/553)
+- chore(deps): update backend dependencies (major) in [#581](https://github.com/grafana/grafana-cloudwatch-datasource/pull/581)
+- ci: add stale issue and PR workflow in [#583](https://github.com/grafana/grafana-cloudwatch-datasource/pull/583)
+- chore: use shared data-sources Renovate base preset in [#577](https://github.com/grafana/grafana-cloudwatch-datasource/pull/577)
+- Add add-to-project workflow and remove issue_commands in [#575](https://github.com/grafana/grafana-cloudwatch-datasource/pull/575)
+- docs: add signed commits requirement to CONTRIBUTING.md in [#574](https://github.com/grafana/grafana-cloudwatch-datasource/pull/574)
+- Updating plugin-ci-workflows in [#573](https://github.com/grafana/grafana-cloudwatch-datasource/pull/573)
+- fix(deps): update grafana monorepo to v13 in [#554](https://github.com/grafana/grafana-cloudwatch-datasource/pull/554)
+- Chore: Add .DS_Store to gitignore in [#535](https://github.com/grafana/grafana-cloudwatch-datasource/pull/535)
+- chore: make grafanaDependency prerelease-inclusive in [#567](https://github.com/grafana/grafana-cloudwatch-datasource/pull/567)
+- Security hardening: supply chain and CI (plugin-ci v8, Yarn 4.14) in [#555](https://github.com/grafana/grafana-cloudwatch-datasource/pull/555)
+- chore: update plugin-ci-workflows to v8.0.1 in [#556](https://github.com/grafana/grafana-cloudwatch-datasource/pull/556)
+- Use GATB in GitHub workflows in [#541](https://github.com/grafana/grafana-cloudwatch-datasource/pull/541)
+- set enable scripts to false in .yarnrc.yml in [#539](https://github.com/grafana/grafana-cloudwatch-datasource/pull/539)
+- chore: move CODEOWNERS to correct directory in [#536](https://github.com/grafana/grafana-cloudwatch-datasource/pull/536)
+
 ## 12.8.0
 
 - feat(dsabstraction): add initial support for SQL abstractions in [#513](https://github.com/grafana/grafana-cloudwatch-datasource/pull/513)
