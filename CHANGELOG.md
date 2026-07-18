@@ -3,6 +3,8 @@
 ## 12.9.0
 
 - CloudWatch Logs: Add support for querying by data source name and type
+- chore(deps): update grafana/grafana-enterprise:latest docker digest to c2dcc96 in [#564](https://github.com/grafana/grafana-cloudwatch-datasource/pull/564)
+- chore(deps): update actions/checkout action to v7 in [#580](https://github.com/grafana/grafana-cloudwatch-datasource/pull/580)
 - fix(deps): update dependency @grafana/scenes to v8 in [#553](https://github.com/grafana/grafana-cloudwatch-datasource/pull/553)
 - chore(deps): update backend dependencies (major) in [#581](https://github.com/grafana/grafana-cloudwatch-datasource/pull/581)
 - ci: add stale issue and PR workflow in [#583](https://github.com/grafana/grafana-cloudwatch-datasource/pull/583)
