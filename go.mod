@@ -1,6 +1,6 @@
 module github.com/grafana/grafana-cloudwatch-datasource
 
-go 1.26.4
+go 1.26.5
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.42.1
@@ -9,12 +9,12 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.316.1
 	github.com/aws/aws-sdk-go-v2/service/oam v1.25.1
 	github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi v1.34.1
-	github.com/aws/smithy-go v1.27.3
+	github.com/aws/smithy-go v1.27.4
 	github.com/go-stack/stack v1.8.1
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
-	github.com/grafana/grafana-aws-sdk v1.4.6
-	github.com/grafana/grafana-plugin-sdk-go v0.292.2
+	github.com/grafana/grafana-aws-sdk v1.5.1
+	github.com/grafana/grafana-plugin-sdk-go v0.293.0
 	github.com/grafana/schemads v0.2.3
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/prometheus/client_golang v1.23.2
@@ -90,7 +90,7 @@ require (
 	github.com/magefile/mage v1.17.2 // indirect
 	github.com/mattetti/filebuffer v1.0.1 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
-	github.com/mattn/go-isatty v0.0.22 // indirect
+	github.com/mattn/go-isatty v0.0.23 // indirect
 	github.com/mattn/go-runewidth v0.0.24 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mithrandie/csvq v1.18.1 // indirect
@@ -137,9 +137,9 @@ require (
 	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/term v0.45.0 // indirect
 	golang.org/x/text v0.40.0 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
-	google.golang.org/grpc v1.82.0 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20260715232425-e75dac1f907d // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260715232425-e75dac1f907d // indirect
+	google.golang.org/grpc v1.82.1 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
